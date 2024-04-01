@@ -16,15 +16,17 @@ const Home = () => {
       <VideoBanner/>
       {/*<HeroBanner/>*/}
       <WhatWeDoModule/>
-      <HowCanWeHelpBanner/>
+      <HowCanWeHelpBanner message={"Need a custom ai chatbot?"} url={"/contact"} ctaMessage={"lets get started"}/>
 
       <NewCaseStudyContainer>
         <NewCaseStudyDetails style={CaseStudyStyle.RIGHT} content={caseStudy.aiTranslator} elementIndex={1}/>
         <NewCaseStudyDetails style={CaseStudyStyle.LEFT} content={caseStudy.supportAgent} elementIndex={2}/>
         <NewCaseStudyDetails style={CaseStudyStyle.RIGHT} content={caseStudy.esap} elementIndex={3}/>
       </NewCaseStudyContainer>
+
       <InfoBanner/>
-      <HowCanWeHelpBanner/>
+
+      <HowCanWeHelpBanner message={"Want to invest in $Dora?"} url={"/tokenomics"} ctaMessage={"start here"}/>
       <Footer/>
     </Layout>
   )

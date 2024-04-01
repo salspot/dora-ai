@@ -30,11 +30,8 @@ const PrivacyPolicy = () => {
             </div>
             <div className="col-lg-9 col-md-10 col-sm-12 col-centered">
               <article className="post">
-                <p>This Privacy Policy outlines our guidelines and protocols on acquiring, employing, and revealing Your
-                  data when responding to our advertisements. It educates You about Your privacy rights and legal
-                  protection. We utilize Your Personal Data to communicate with and aid you, as well as to deliver and
-                  enhance the Service. Your acceptance of these terms endorses the gathering and utilization of
-                  information as per this Privacy Policy.<br/>&nbsp;</p>
+                <p>The tokenomics provide an overview
+                  <br/>&nbsp;</p>
                 <h3>Interpretation and Explanations<br/>&nbsp;</h3><p><strong>Interpretation</strong>
                 <br/>Words commencing with capital letters hold specific meanings under the following provisions. These
                 definitions retain their significance, whether in singular or plural instances.<br/>&nbsp;</p><h4>

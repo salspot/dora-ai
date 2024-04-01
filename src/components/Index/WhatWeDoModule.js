@@ -8,11 +8,10 @@ const WhatWeDoModule = () => {
                     <div className="col-lg-10 col-md-11  col-12">
                         <div className="title " data-sr-id="17">What we do</div>
                         <h2
-                            data-sr-id="18">Innovative products delivering engaging experiences at scale.</h2>
-                        <div className="blurb "
-                             data-sr-id="19">We've designed, architected and scaled hundreds of mobile and web
-                            applications including numerous top-ten mobile applications, high-trafficked web systems,
-                            and big-data architectures for venture-backed startups and Fortune 100 companies.
+                            data-sr-id="18">Innovative AI built to enhance customer experience.</h2>
+                        <div className="blurb"
+                             data-sr-id="19">We've designed, architected numerous ai models for different use cases.
+                                            Our team is ready to help you build your next AI agent.
                         </div>
                     </div>
                 </div>
@@ -25,7 +24,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-web"></i><h4
-                                                className="heading">Web Engineering</h4></div>
+                                                className="heading">Content Translation</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -35,7 +34,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-mobile"></i><h4
-                                              className="heading">Mobile Engineering</h4></div>
+                                              className="heading">Custom tailored chatbots</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -45,7 +44,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-devops"></i><h4
-                                                className="heading">DevOps &amp; Hosting</h4></div>
+                                                className="heading">Custom Model Training &amp; Hosting</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>
