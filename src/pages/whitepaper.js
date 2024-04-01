@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
                   incentivizing user participation, and driving growth and innovation in the AI industry.
                 </p>
                 <p>
-                  The $Dora token ($DORA) is an ERC-20 utility token built on the Ethereum blockchain, designed to
+                  The $Dora token ($DORA) is an ERC-20 utility token built on the BSC blockchain, designed to
                   power our AI platform and reward users for their contributions. The token serves as a medium of
                   exchange, enabling users to access AI services, pay for transactions, and participate in our staking
                   program to earn rewards.
@@ -71,8 +71,6 @@ const PrivacyPolicy = () => {
                   Leveraging BSC's liquidity and market capitalization, $Dora aims to achieve widespread adoption and
                   liquidity, ensuring seamless integration into the broader blockchain ecosystem.</p>
 
-
-                <h3>Token Market Specifications<br/>&nbsp;</h3>
                 <p>Our ERC-20 compliant token features a simple and efficient contract design, ensuring compatibility
                   with existing wallets, exchanges, and DeFi protocols. Upon launch, ownership of the token contract
                   will be renounced, providing transparency and decentralization.
@@ -87,6 +85,12 @@ const PrivacyPolicy = () => {
                   incentives, marketing initiatives, and advisor partnerships. Vesting mechanisms ensure responsible
                   token
                   distribution and alignment of incentives among team members and stakeholders.</p>
+                <ul>
+                  <li>Number of total tokens: 1 billion</li>
+                  <li>Buy/Sell tax: 1% (check our tokenomics page where we go into detail on how we're going to use this
+                    tax)</li>
+                  <li>No minting, no mining and no inflation.</li>
+                </ul>
 
                 <p>We have a dedicated public document for our tokenomics, make sure to visit it for more details: <Link
                   to="/tokenomics/">Tokenomics</Link></p>
@@ -105,6 +109,28 @@ const PrivacyPolicy = () => {
                   exclusive benefits when utilizing Dora services.
                 </p>
 
+                <ul>
+                  <li>Access to AI Services: Holders of Dora.ai tokens may use them to access AI services provided by
+                    the
+                    Dora.ai platform, such as content generation, natural language processing, content translation and
+                    data analysis tools.
+                  </li>
+                  <li>Incentives and Rewards: Dora.ai tokens may be used to incentivize certain behaviors within the
+                    ecosystem, such as contributing data, participating in research studies, or providing feedback on AI
+                    models. Token holders may receive rewards or incentives in exchange for their contributions.
+                  </li>
+                  <li>Discounts and Benefits: Holders of Dora.ai tokens may receive discounts or special benefits when
+                    using
+                    AI services or participating in platform activities. These benefits could include reduced fees,
+                    priority
+                    access to services, or exclusive access to certain features.
+                  </li>
+                </ul>
+
+                <p>Overall, utility tokens like Dora.ai serve to align incentives within a blockchain ecosystem,
+                  incentivize participation and contribution, and provide tangible benefits to users who engage with the
+                  platform.
+                </p>
 
                 <h3>Roadmap and Future Initiatives<br/>&nbsp;</h3>
                 <p>Our roadmap outlines a strategic vision for the development and expansion of the Dora ecosystem.
@@ -129,7 +155,7 @@ const PrivacyPolicy = () => {
                   <li>Create liquidity pools on DEXs.</li>
                 </ul>
 
-                <h3>Future Initiatives<br/>&nbsp;</h3>
+                {/*<h3>Future Initiatives<br/>&nbsp;</h3>*/}
 
                 <h4>Enhancing Token Utility: Introducing Staking Functionality</h4>
                 <p>we are excited to announce that we will be implementing staking functionality for the Dora.ai token.
@@ -180,6 +206,9 @@ const PrivacyPolicy = () => {
                   increase our reach into more spheres of interest while inspiring and empowering users to achieve their
                   goals.</p>
 
+                <p>We want to enable this agent to create content for other platforms like instagram and facebook to
+                  expand our reach and increase the community size</p>
+
                 <h4>Chatbot Integrations</h4>
                 <p>As part of our future initiatives, we are excited to unveil our plans for chatbot integrations across
                   various platforms. Leveraging AI technology and the Dora.ai token, we aim to create a chatbot agent
@@ -191,6 +220,7 @@ const PrivacyPolicy = () => {
                     <li>Whatsapp</li>
                     <li>Facebook Messenger</li>
                     <li>Wordpress</li>
+                    <li>Slack</li>
                   </ul>
                   By integrating chatbots into these platforms, we aim to expand the reach and impact of Dora.ai,
                   bringing AI-powered solutions to a
@@ -201,6 +231,16 @@ const PrivacyPolicy = () => {
                 <p>We are actively exploring opportunities to enhance token adoptability through partnerships, use case
                   development, and community engagement. While these initiatives are still in the early stages, we are
                   committed to driving token utility and accessibility in the future.</p>
+
+                <p>The best use cases are the ones needed the most. That's why we will add a page on our website where
+                  token holders can add and vote
+                  project ideas for the future.</p>
+                <p>Based on these ideas we will create different channels for collaborating on existing platforms like:
+                  slack or discord to facilitate colaboration
+                  and progress sharing. We will incentivise this behaviour with rewards from our Community Rewards pool
+                  and to ensure project success we will assign "champions" for the project. The role of a "champion" is
+                  not to work the hardest, but to oversee the big picture, to check on progress and to maintain
+                  everyone in sync with the project's roadmap.</p>
 
 
                 <h4>Roadmap Note</h4>

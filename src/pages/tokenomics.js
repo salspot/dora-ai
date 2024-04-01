@@ -41,23 +41,15 @@ const PrivacyPolicy = () => {
                   circulating supply of one billion tokens.
                 </p>
                 <p>
-                  <strong>Liquidity:</strong> 75% (75 million) of the total supply is provided for trading to make sure
-                  that people can always buy and sell $PALM easily.
-                  <br/>
-                </p>
-
-                <p>
                   <strong>Tax:</strong> There is a 1% tax tax on buying and selling $Dora tokens. This tax is used to
                   fill the staking pool making sure there is enough tokens for rewards.
                   <br/>
                   The tax is not applicable when buying and selling tokens on Centralised Exchanges - CEXs.
                 </p>
-
                 <p>
                   <strong>Inflation:</strong> No inflation, minting or mining. The total supply of $Dora tokens is
                   fixed.
                 </p>
-
 
                 <h3>
                   <strong>Token Allocation:</strong>
@@ -109,6 +101,9 @@ const PrivacyPolicy = () => {
                 </ul>
 
                 Token contract: <strong>0x0</strong>
+
+                TODO update token contract
+                TODO update with vesting schedule
               </article>
             </div>
           </div>
