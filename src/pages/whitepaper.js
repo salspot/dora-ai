@@ -86,9 +86,10 @@ const PrivacyPolicy = () => {
                   token
                   distribution and alignment of incentives among team members and stakeholders.</p>
                 <ul>
-                  <li>Number of total tokens: 1 billion</li>
-                  <li>Buy/Sell tax: 1% (check our tokenomics page where we go into detail on how we're going to use this
-                    tax)</li>
+                  <li>Number of total tokens: 1 billion.</li>
+                  <li>Buy & Sell tax: 1% This is a tax added to replenish the staking pool - check our tokenomics page where we go into detail on how we're going to use this
+                    tax.</li>
+                  <li>Ownership rennounced.</li>
                   <li>No minting, no mining and no inflation.</li>
                 </ul>
 
