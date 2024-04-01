@@ -1,11 +1,14 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
-import {Link} from "gatsby";
-import { StaticImage } from "gatsby-plugin-image"
-import imagesrc from '../assets/images/dora.ai.png'
+import {graphql, Link, useStaticQuery} from "gatsby";
+import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
 
 const NewCaseStudyDetails = ({style = CaseStudyStyle.LEFT, content, elementIndex}) => {
-  const {title, description, accordionList, slug, imgSrc} = content;
+  const {title, description, accordionList, slug, imgSrc, imgAlt} = content;
+  const caseStudyImage = getImage(imgSrc)
+  console.log('caseStudyImage', imgSrc, caseStudyImage)
+
+
   // styleClasses holds styles for right and left variations. Each list holds a set of classes for different elements in the page.
   const styleClasses = {
     right: ['col-lg-4 order-lg-last top', 'col-lg-8'],
@@ -38,19 +41,18 @@ const NewCaseStudyDetails = ({style = CaseStudyStyle.LEFT, content, elementIndex
           <Accordion flush alwaysOpen>
             {accordionItems}
           </Accordion>
-          <div className="case-study-item-cta">
-            <Link
-              to={slug}
-              activeClassName="active"
-              className="default-btn">See more</Link>
-          </div>
+          {/*<div className="case-study-item-cta">*/}
+          {/*  <Link*/}
+          {/*    to={slug}*/}
+          {/*    activeClassName="active"*/}
+          {/*    className="default-btn">See more</Link>*/}
+          {/*</div>*/}
         </div>
       </div>
       <div className={styleClasses[style][1]}>
         <div className="block-image">
           <div className="bg-overlay"></div>
-          <StaticImage className="case-study-image" alt="Our Approach - Step 1: Discovery"
-               src="https://haieng.com/wp-content/uploads/2017/10/test-image-500x500.jpg"></StaticImage>
+            <img className="case-study-image" alt={imgAlt} src={imgSrc}></img>
         </div>
       </div>
     </article>

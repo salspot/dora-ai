@@ -15,14 +15,15 @@ const Home = () => {
       <Navbar className="navbar-fixed-top"/>
       <VideoBanner/>
       {/*<HeroBanner/>*/}
+      <WhatWeDoModule/>
+      <HowCanWeHelpBanner/>
 
       <NewCaseStudyContainer>
         <NewCaseStudyDetails style={CaseStudyStyle.RIGHT} content={caseStudy.aiTranslator} elementIndex={1}/>
-        <NewCaseStudyDetails style={CaseStudyStyle.LEFT} content={caseStudy.ehx} elementIndex={2}/>
+        <NewCaseStudyDetails style={CaseStudyStyle.LEFT} content={caseStudy.supportAgent} elementIndex={2}/>
         <NewCaseStudyDetails style={CaseStudyStyle.RIGHT} content={caseStudy.esap} elementIndex={3}/>
       </NewCaseStudyContainer>
       <InfoBanner/>
-      <WhatWeDoModule/>
       <HowCanWeHelpBanner/>
       <Footer/>
     </Layout>

@@ -28,7 +28,7 @@ const Contact = () => {
 
         <NewCaseStudyContainer>
           <NewCaseStudyDetails style={CaseStudyStyle.RIGHT} content={caseStudy.aiTranslator}/>
-          <NewCaseStudyDetails style={CaseStudyStyle.LEFT} content={caseStudy.ehx}/>
+          <NewCaseStudyDetails style={CaseStudyStyle.LEFT} content={caseStudy.supportAgent}/>
           <NewCaseStudyDetails style={CaseStudyStyle.RIGHT} content={caseStudy.esap}/>
           <NewCaseStudyDetails style={CaseStudyStyle.LEFT} content={caseStudy.emila}/>
         </NewCaseStudyContainer>

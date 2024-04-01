@@ -13740,7 +13740,7 @@ Go Top CSS
 
 .services .approach .block-image {
     height: 750px;
-    max-width: 1200px;
+    max-width: 1000px;
     overflow: hidden;
     border-radius: 10px;
     position: relative;
@@ -13751,7 +13751,7 @@ Go Top CSS
     right: inherit;
     left: inherit;
     top: inherit;
-    opacity: .7;
+    opacity: .3;
     max-width: inherit;
     border-radius: 10px
 }

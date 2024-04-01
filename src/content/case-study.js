@@ -3,7 +3,8 @@ const caseStudy = {
     title: 'Custom AI Content Translator',
     description: 'Our client, a leader in the travel services industry, needed  a solution  for translating content across more than a hundred  websites in different languages. They were having high costs using traditional 3rd party translation services',
     slug: '/case-studies/custom-ai-content-translator',
-    imgSrc: '../assets/images/dora.ai.png',
+    imgSrc: '/ai-translator.jpg',
+    imgAlt: 'Dora ai Translator',
     accordionList: [
       {
         title: 'Custom format translation support',
@@ -19,68 +20,48 @@ const caseStudy = {
       },
     ]
   },
-  ehx: {
-    title: 'Redefining Travel Experience Through Innovative Services',
-    description: 'This leading travel support service entity offers a wide array of supplementary travel provisions and essential aids designed to enhance the overall travel experience. Its commitment to improving travel and offering seamless services has positioned it as a prominent provider in the industry.',
-    slug: '/case-studies/holidayextras',
-    imgSrc: '../assets/images/dora.ai.png',
+  supportAgent: {
+    title: 'Support agent chat for specialized services',
+    description: 'Our client, required a chat solution that could support their clients in providing personalized assistance to customers.',
+    slug: '/case-studies/support-chat-agent',
+    imgSrc: '/ai-support-agent.jpg',
+    imgAlt: 'Dora ai - support agent chat for specialized services',
     accordionList: [
       {
-        title: 'Airport Support Solutions',
-        body: 'provides parking options, hotel accommodations, lounge access, and comprehensive insurance coverage, ensuring a comfortable start to travelers\' journeys.',
+        title: 'Trained on a massive support chat dataset',
+        body: 'The model was trained on a massive dataset of support chat conversations, enabling it to understand and respond to customer queries effectively.',
       },
       {
-        title: 'Travel Enhancements',
-        body: 'It specializes in providing several add-ons, such as transfers, car rentals, and insurance, with a goal to facilitate convenience and flexibility during travel.',
+        title: 'Trained on the internal support documentation',
+        body: 'The chatbot was trained on the company\'s internal support documentation, ensuring that it could provide accurate and up-to-date information to customers.',
       },
       {
-        title: 'Parking and Security Solutions',
-        body: 'Renowned for providing parking solutions at major airports and seaports, ensuring safe and cost-effective parking options for travelers.'
+        title: 'Expanded with api backend actions',
+        body: 'We expanded the chatbot\'s capabilities to include API actions, enabling it to access the company\s api services and provide more detailed information to customers.',
       }
     ]
   },
   esap: {
-    title: 'Field Service Management Solution',
-    description: 'Our software development agency proudly contributed to the creation of an innovative Field Service Management (FSM) solution. This powerful platform revolutionizes service operations, offering comprehensive tools for streamlining and enhancing field services.',
-    slug: '/case-studies/sap-fsm',
-    imgSrc: '../assets/images/dora.ai.png',
+    title: 'Replace owner\'s manual with a a smart Ai chatbot',
+    description: 'Our client, a manufacturer of consumer electronics, needed a solution to aid their customers with an AI chatbot that could provide information from the manual as personalized support to customers.',
+    slug: '/case-studies/instructions-manual-ai-chatbot',
+    imgSrc: '/owner\'s-manual.jpg',
+    imgAlt: 'Dora ai - owner\'s manual ai chatbot',
     accordionList: [
       {
-        title: 'Dynamic Service Delivery',
-        body: 'Our team collaborated to build an FSM tool that optimizes service delivery with real-time insights and dynamic task allocation. It provides a seamless approach for managing, scheduling, and dispatching field service personnel.'
+        title: 'Trained the ai model on the company\'s product manuals and documentation',
+        body: 'The AI chatbot has the knowledge of the entire company\'s manuals and documentation, enabling it to provide specific responses and instructions for the customer, without having him scroll through an entire manual.',
       },
       {
-        title: 'Robust Resource Management',
-        body: 'With our expertise, we contributed to the development of an FSM solution that efficiently manages resources and inventory. This feature ensures that field service personnel have access to the right resources, inventory, and information to accomplish their tasks successfully.'
+        title: 'Increased customer satisfaction',
+        body: 'The AI chatbot has increased customer satisfaction by providing instant and accurate responses to customer queries, reducing the time taken to resolve issues and improving the overall customer experience.',
       },
       {
-        title: 'Enhanced Customer Experience',
-        body: 'We actively participated in creating an FSM platform that elevates the customer experience. Our developed solution offers a user-friendly interface for tracking, reporting, and facilitating communication, enhancing customer satisfaction and overall service efficiency.'
+        title: 'Enhanced customer experience',
+        body: 'We iterated on the chatbot to provide a more personalized experience for customers, enabling it to understand the context of the conversation and provide relevant information to the customer.'
       }
     ]
   },
-  emila: {
-    title: 'Innovative Service Platform Transformation',
-    description: 'We helped develop an innovative service platform operated by a Swiss startup. This versatile platform revolutionizes the service industry, offering an efficient and accessible solution for connecting individuals seeking services with skilled, local experts.',
-    slug: '/case-studies/mila',
-    imgSrc: '../assets/images/dora.ai.png',
-    accordionList: [
-      {
-        title: 'Dynamic Service Connectivity',
-        body: 'Our team participated in developing a platform that connects users with an array of service providers across various domains. By enabling a seamless connection, it facilitates efficient and accessible solutions for individuals seeking expert services.'
-      },
-      {
-        title: 'Enhanced Service Management',
-        body: 'We were involved in crafting a platform that offers robust tools for managing services and scheduling tasks. This solution helps service providers manage their resources effectively, optimizing service delivery and customer satisfaction.'
-      },
-      {
-        title: 'Optimized User Experience',
-        body: 'Our contribution focused on creating a user-centric platform that enhances the overall user experience. By providing a user-friendly interface and improved accessibility, the platform ensures a streamlined connection between service providers and users, enriching the customer journey.'
-      }
-    ]
-  },
-  ecore: {},
-  econtrol: {},
 }
 
 

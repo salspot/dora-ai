@@ -92,3 +92,7 @@ body:has(.case-studies-template) {
     object-fit: cover;
     object-position: top;
 }
+
+@media (min-width: 992px) {
+
+}
