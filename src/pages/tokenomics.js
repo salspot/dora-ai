@@ -54,7 +54,8 @@ const PrivacyPolicy = () => {
                 </p>
 
                 <p>
-                  <strong>Inflation:</strong> No inflation, minting or mining. The total supply of $Dora tokens is fixed.
+                  <strong>Inflation:</strong> No inflation, minting or mining. The total supply of $Dora tokens is
+                  fixed.
                 </p>
 
 
@@ -92,13 +93,22 @@ const PrivacyPolicy = () => {
 
 
                 <h3>Projects economy<br/></h3>
-                <p>Many of the projects we'll be launching will be generating $Dora tokens, which we will be using as follows:</p>
+                <p>Many of the projects we'll be launching will be generating $Dora tokens, which we will be using as
+                  follows:</p>
                 <ul>
                   <li>to support our infrastructure costs</li>
                   <li>to maintain the projects</li>
                   <li>to develop and launch new products</li>
                 </ul>
 
+                <h3>You can buy $Dora tokens here:<br/></h3>
+                <ul>
+                  <li>public ido - <strong>to be done</strong></li>
+                  <li>uniswap/pancakeswap - <strong>to be done</strong></li>
+                  <li>CEXs - <strong>to be done</strong></li>
+                </ul>
+
+                Token contract: <strong>0x0</strong>
               </article>
             </div>
           </div>

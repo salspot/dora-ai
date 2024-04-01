@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from "../components/App/Layout"
 import Navbar from "../components/App/Navbar"
 import Footer from "../components/App/Footer"
+import {StaticImage} from "gatsby-plugin-image";
+import {Link} from "gatsby";
 
 const PrivacyPolicy = () => {
   return (
@@ -12,7 +14,7 @@ const PrivacyPolicy = () => {
           <div className="row headline">
             <div className="col-lg-9 col-md-10 col-sm-12 col-centered">
               <div className="row">
-                <div className="title">Dora.ai
+                <div className="title">Dora
                 </div>
                 <h1 className="page-type">Whitepaper</h1>
                 <div className="skayline"></div>
@@ -21,6 +23,8 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </header>
+
+
       <section className="post-body legal">
         <div className="container">
           <div className="row">
@@ -30,136 +34,189 @@ const PrivacyPolicy = () => {
             </div>
             <div className="col-lg-9 col-md-10 col-sm-12 col-centered">
               <article className="post">
-                <p>The tokenomics provide an overview
+                <p>We provide a detailed overview of ou utility token $DORA, and its distribution.
                   <br/>&nbsp;</p>
-                <h3>Interpretation and Explanations<br/>&nbsp;</h3><p><strong>Interpretation</strong>
-                <br/>Words commencing with capital letters hold specific meanings under the following provisions. These
-                definitions retain their significance, whether in singular or plural instances.<br/>&nbsp;</p><h4>
-                <strong>Definitions</strong></h4><p>Concerning this Privacy Policy:</p>
-                <ul>
-                  <li><strong>Company</strong> (referred to as "the Company," "We," "Us," or "Our" in this Agreement)
-                    pertains to Salspot Software.
-                  </li>
-                  <li><strong>Device</strong> implies any gadget capable of accessing the Service, like a computer,
-                    cellphone, or digital tablet.
-                  </li>
-                  <li><strong>Personal Data</strong> denotes any information related to an identified or identifiable
-                    person.
-                  </li>
-                  <li><strong>Service</strong> encompasses the advertisement, website, or application.</li>
-                  <li><strong>Service Provider</strong> includes any individual or entity processing data on behalf of
-                    the Company, such as third-party companies or individuals assisting in the Service’s facilitation,
-                    delivery, performance, or Service usage analysis.
-                  </li>
-                  <li><strong>Usage Data</strong> indicates automatically collected data, generated from using the
-                    Service or the Service infrastructure itself (e.g., duration of a page visit).
-                  </li>
-                  <li><strong>You</strong> represents the individual or company accessing or utilizing the Service, or
-                    another legal entity represented by that individual using the Service, as relevant.
-                  </li>
-                </ul>
-                <p>&nbsp;</p><h3>Collection and Utilization of Your Personal Data<br/>&nbsp;</h3><h4><strong>Data
-                Categories Collected</strong><br/>&nbsp;</h4><p>Personal Data</p><p>While engaging with Our Service, we
-                might request that You furnish certain personally identifiable details enabling Us to get in touch or
-                identify You. This information may encompass, though is not restricted to:</p>
-                <ul>
-                  <li>First and last name</li>
-                  <li>Email address</li>
-                  <li>Phone number</li>
-                  <li>Specific location details like address, city, or country</li>
-                  <li>Other related data such as personal preferences, requisites, or remarks<br/>&nbsp;</li>
-                </ul>
-                <h4><strong>Utilization of Your Personal Data</strong><br/>&nbsp;</h4><p>The Company might employ
-                Personal Data for the subsequent objectives:</p>
+                <h3>Introduction to $Dora token<br/>&nbsp;</h3>
+                <p>
+                  Welcome to the world of Dora, where cutting-edge AI technologies meet blockchain innovation to
+                  revolutionize the way we interact with artificial intelligence. Dora introduces its native token,
+                  designed to serve as the backbone of our ecosystem, facilitating seamless access to AI services,
+                  incentivizing user participation, and driving growth and innovation in the AI industry.
+                </p>
+                <p>
+                  The $Dora token ($DORA) is an ERC-20 utility token built on the Ethereum blockchain, designed to
+                  power our AI platform and reward users for their contributions. The token serves as a medium of
+                  exchange, enabling users to access AI services, pay for transactions, and participate in our staking
+                  program to earn rewards.
+                </p>
 
+
+                <h3>Purpose and Vision<br/>&nbsp;</h3>
+                <p>At Dora, our mission is to democratize access to AI technologies and empower individuals and
+                  businesses to leverage the power of artificial intelligence for various applications. We envision a
+                  future where AI solutions are accessible, affordable, and adaptable to diverse needs and industries.
+                  With the $Dora token, we aim to create a decentralized ecosystem that fosters collaboration,
+                  innovation, and value creation in the AI space.
+                </p>
+                <p>Leveraging our experience providing AI services for businesses in real use case scenarios, we want to
+                  enable everyone to harness the power of AI. Our mission is to bring AI technology to everyone's use,
+                  ensuring that individuals and businesses of all sizes can benefit from the transformative capabilities
+                  of artificial intelligence.
+                </p>
+
+                <h3>Token Overview<br/>&nbsp;</h3>
+
+                <p>The $Dora token operates on the Binance Smart Chain (BSC), chosen for its robust infrastructure,
+                  high transaction throughput, low fees, and extensive network of projects and users.
+                  Leveraging BSC's liquidity and market capitalization, $Dora aims to achieve widespread adoption and
+                  liquidity, ensuring seamless integration into the broader blockchain ecosystem.</p>
+
+
+                <h3>Token Market Specifications<br/>&nbsp;</h3>
+                <p>Our ERC-20 compliant token features a simple and efficient contract design, ensuring compatibility
+                  with existing wallets, exchanges, and DeFi protocols. Upon launch, ownership of the token contract
+                  will be renounced, providing transparency and decentralization.
+                  Integration with Pancakeswap allows for seamless liquidity provisioning and trading on decentralized
+                  exchanges.</p>
+
+
+                <h3>Tokenomics<br/>&nbsp;</h3>
+                <p>The $Dora tokenomics model is designed to balance the interests of stakeholders while fostering
+                  long-term sustainability and growth. Token distribution includes allocations for token sale, ecosystem
+                  growth, team members, listings on decentralized and centralized exchanges, staking rewards, community
+                  incentives, marketing initiatives, and advisor partnerships. Vesting mechanisms ensure responsible
+                  token
+                  distribution and alignment of incentives among team members and stakeholders.</p>
+
+                <p>We have a dedicated public document for our tokenomics, make sure to visit it for more details: <Link
+                  to="/tokenomics/">Tokenomics</Link></p>
+                <br/>
+                <StaticImage src={"../assets/images/token-allocation.png"}></StaticImage>
+                <br/>
+                <br/>
+
+                <h3>Utility and Use Cases<br/>&nbsp;</h3>
+                <p>
+                  The $Dora token serves as a utility token within our ecosystem, providing holders with access to a
+                  range of AI services and platform features. Token holders may utilize $Dora tokens for AI
+                  translation
+                  services, customer support solutions, instruction manual assistance, sentiment analysis tools, and
+                  cryptocurrency market insights. Additionally, token holders may receive discounts, rewards, and
+                  exclusive benefits when utilizing Dora services.
+                </p>
+
+
+                <h3>Roadmap and Future Initiatives<br/>&nbsp;</h3>
+                <p>Our roadmap outlines a strategic vision for the development and expansion of the Dora ecosystem.
+                  Planned initiatives include the launch of AI-powered translation services, expansion into new markets
+                  and industries, integration with social media platforms, and the development of innovative AI
+                  applications. Community feedback and collaboration drive our continuous evolution and improvement,
+                  ensuring that Dora remains at the forefront of AI innovation.
+                </p>
+
+                <p>Below is short list of items we need to accomplish before we tackle our innovative roadmap:</p>
                 <ul>
-                  <li><strong>For Service Provision and Maintenance:</strong> This includes the oversight of Service
-                    usage.
+                  <li>Prepare necessary documentation and legal requirements for listing on exchange platforms, ensuring
+                    compliance with regulatory standards and guidelines.
                   </li>
-                  <li><strong>Account Management:</strong> Ensuring Your registration for Service usage and the
-                    provision of various functionalities accessible to registered users based on the Personal Data You
-                    provide.
+                  <li>Establish communication channels with exchange representatives to initiate discussions and express
+                    interest in listing the $Dora token.
                   </li>
-                  <li><strong>Contract Fulfillment:</strong> Engaging in the development, adherence, and execution of
-                    purchase contracts or other agreements via the Service for the items, products, or services acquired
-                    by You.
+                  <li>Explore strategic partnerships and collaborations with reputable decentralized exchanges (DEXs)
+                    and centralized exchanges (CEXs) to facilitate the listing process.
                   </li>
-                  <li><strong>Contacting You:</strong> Contact through email, telephone, SMS, or other electronic
-                    communication forms, such as mobile application notifications regarding updates or informative
-                    messages related to services, products, or functionalities, including security updates, when deemed
-                    necessary or reasonable for their execution.
-                  </li>
-                  <li><strong>Information Provision:</strong> Offering news, special offers, and general information on
-                    products, services, and events akin to your previous purchases or inquiries, unless You have opted
-                    not to receive such information.
-                  </li>
-                  <li><strong>Request Management:</strong> Addressing and managing Your requests to Us.</li>
-                  <li><strong>Business Transfers:</strong> Evaluating or executing mergers, divestitures,
-                    reorganizations, or sales, where data regarding Service users is among the transferred assets.
-                  </li>
-                  <li><strong>Other Purposes:</strong> Utilizing Your data for various other objectives such as data
-                    analysis, identifying usage trends, assessing promotional campaign effectiveness, and enhancing our
-                    Service, products, services, marketing, and user experience.<br/>&nbsp;</li>
+                  <li>Negotiate with launchpads for a possible public sale of the $Dora token.</li>
+                  <li>Create liquidity pools on DEXs.</li>
                 </ul>
-                <p>Regarding the sharing of Your personal information, we may engage in the following:</p>
-                <ul>
-                  <li><strong>With Service Providers:</strong> Sharing Your information with Service Providers to
-                    oversee and analyze Service usage and to contact You.
-                  </li>
-                  <li><strong>During Business Transfers:</strong> Sharing or transferring Your information during
-                    negotiations of mergers, asset sales, financing, or acquisition activities.
-                  </li>
-                  <li><strong>With Affiliates:</strong> Sharing Your information with Our affiliates, requiring these
-                    affiliates to adhere to this Privacy Policy.
-                  </li>
-                  <li><strong>With Business Partners:</strong> Sharing Your information with business partners to
-                    provide specific products, services, or promotions.
-                  </li>
-                  <li><strong>With Other Users:</strong> When interacting or sharing personal information in public
-                    areas with other users, such information may be viewed and publicly distributed to all users.
-                  </li>
-                  <li><strong>With Your Consent:</strong> Disclosing Your personal information for other purposes based
-                    on Your consent.<br/>&nbsp;</li>
-                </ul>
-                <h4><strong>Retaining Your Personal Data</strong></h4><p>Our company will maintain Your Personal Data
-                for the duration required by the objectives outlined in this Privacy Policy. We retain and utilize Your
-                Personal Data as needed to adhere to legal obligations (e.g., compliance with applicable laws), settle
-                disputes, and enforce our legal agreements and policies.</p><p>We also retain Usage Data for internal
-                analysis.<br/>&nbsp;</p><h4><strong>Transferring Your Personal Data</strong></h4><p>Your information,
-                including Personal Data, is processed at our company's operating offices and other processing locations.
-                This means such information might be transferred to and held on computers outside Your state, province,
-                country, or any other governmental jurisdiction where data protection laws might differ from Your
-                jurisdiction.<br/><br/>Your agreement to this Privacy Policy, followed by Your submission of
-                information, represents Your consent to such transfers.<br/><br/>Our company will take all necessary
-                measures to ensure the secure treatment of Your data in accordance with this Privacy Policy. No transfer
-                of Your Personal Data will occur to an organization or country unless sufficient controls are in place,
-                including data security and personal information protection.<br/>&nbsp;</p><h3>Revealing Your Personal
-                Data</h3><h4><br/><strong>Legal Enforcement</strong></h4><p>Under certain circumstances, our company may
-                disclose Your Personal Data when required by law or in response to valid requests from public
-                authorities (e.g., a court or government agency).<br/>&nbsp;</p><p>Other Legal Obligations</p><p>Our
-                company might disclose Your Personal Data based on a good faith belief that such action is necessary
-                to:</p>
-                <ul>
-                  <li>Comply with a legal obligation</li>
-                  <li>Defend the rights or property of the Company</li>
-                  <li>Prevent or investigate potential wrongdoing associated with the Service</li>
-                  <li>Ensure the personal safety of Service Users or the general public</li>
-                  <li>Protect against legal liability</li>
-                </ul>
-                <p>&nbsp;</p><h4><strong>Safeguarding Your Personal Data</strong></h4><p>Ensuring the security of Your
-                Personal Data is crucial to Us. Nonetheless, no transmission method over the Internet or electronic
-                storage is entirely secure. While We endeavor to use commercially accepted means to safeguard Your
-                Personal Data, absolute security cannot be guaranteed.<br/>&nbsp;</p><h3>External Website Links</h3>
-                <p>Our Service may feature links to external websites not operated by Us. Clicking on a third-party link
-                  redirects You to their site. We strongly advise You to review the Privacy Policy of every site You
-                  visit.<br/><br/>We lack control and responsibility for the content, privacy policies, or practices of
-                  any third-party sites or services.<br/>&nbsp;</p><h3>Changes to this Privacy Policy</h3><p>We may
-                periodically update Our Privacy Policy. Changes are notified by posting the new Privacy Policy on this
-                page.<br/><br/>It is recommended to regularly review this Privacy Policy for any modifications. Changes
-                become effective upon posting on this page.<br/>&nbsp;</p><h3>Contacting Us</h3><p>If You have queries
-                regarding this Privacy Policy, feel free to reach us via email at <a
-                  href="mailto:contact.salspot@gmail.com">contact.salspot@gmail.com</a> or on our contact page <a
-                  href="/contact">Contact</a></p></article>
+
+                <h3>Future Initiatives<br/>&nbsp;</h3>
+
+                <h4>Enhancing Token Utility: Introducing Staking Functionality</h4>
+                <p>we are excited to announce that we will be implementing staking functionality for the Dora.ai token.
+                  Staking provides an opportunity for token holders to earn rewards by participating in network
+                  validation or governance activities, thereby contributing to the security and decentralization of the
+                  ecosystem. This initiative aligns with our commitment to enhancing token utility and incentivizing
+                  community engagement. Stay tuned for updates as we work towards implementing staking and further
+                  enhancing the value proposition of the Dora.ai token.</p>
+
+
+                <h4>Generate AI Videos with SORA</h4>
+                <p>Generate AI Videos with SORA: Leveraging the power of AI and the $Dora token, we will collaborate
+                  with
+                  SORA to enable users to generate AI videos seamlessly. Users can utilize $Dora tokens to access
+                  SORA's
+                  advanced video generation technology, creating engaging and personalized videos for various
+                  purposes.</p>
+
+
+                <h4>Public Dora Translator</h4>
+                <p> With the $Dora token, users can unlock the public Dora translator,
+                  allowing them to translate their website content into multiple languages simultaneously. This feature
+                  enables businesses and individuals to expand their reach and engage with a global audience
+                  effectively.</p>
+
+                <p>Below you can see a diagram for the Dora AI Content Translator and how the translation process
+                  works</p>
+                <StaticImage src={"../assets/images/dora-ai-translator-diagram.png"}></StaticImage>
+
+                <h4>Public Dora Book Translator</h4>
+                <p>We are working on the concept of the Public Dora Book Translator, which will enable users to
+                  translate books into multiple languages using $Dora tokens. By uploading text-based books, users can
+                  receive token-cost estimates for translation, promoting literature accessibility on a global
+                  scale.</p>
+
+
+                <h4>Version 1.0 of Dora Twitter Agent </h4>
+                <p>We are planning the development of Version 1.0 of the Twitter Agent Dora, aimed at promoting our
+                  services through crypto, use case, and blockchain content on Twitter. This agent, powered by AI, aims
+                  to drive awareness and adoption of our platform.</p>
+
+                <p>Below you can see a diagram for the Dora AI Twitter agent and how it will work:</p>
+                <StaticImage src={"../assets/images/dora-twitter-agent.png"}></StaticImage>
+
+                <h4>Dora Smarter Everyday Agent</h4>
+                <p>We aspire to create the Dora Smarter Everyday Agent, an AI companion that shares motivational
+                  quotes and insights from self-development books. This initiative, aims to
+                  increase our reach into more spheres of interest while inspiring and empowering users to achieve their
+                  goals.</p>
+
+                <h4>Chatbot Integrations</h4>
+                <p>As part of our future initiatives, we are excited to unveil our plans for chatbot integrations across
+                  various platforms. Leveraging AI technology and the Dora.ai token, we aim to create a chatbot agent
+                  accessible on multiple platforms:
+                  <ul>
+                    <li>Shopify</li>
+                    <li>Wix.com</li>
+                    <li>Telegram</li>
+                    <li>Whatsapp</li>
+                    <li>Facebook Messenger</li>
+                    <li>Wordpress</li>
+                  </ul>
+                  By integrating chatbots into these platforms, we aim to expand the reach and impact of Dora.ai,
+                  bringing AI-powered solutions to a
+                  broader audience and driving innovation in the AI space.
+                </p>
+
+                <h4>Ongoing Exploration: Investing in Token Adoptability</h4>
+                <p>We are actively exploring opportunities to enhance token adoptability through partnerships, use case
+                  development, and community engagement. While these initiatives are still in the early stages, we are
+                  committed to driving token utility and accessibility in the future.</p>
+
+
+                <h4>Roadmap Note</h4>
+                <p>Based on our experience developing AI services we've learned a lot and we know that what is on our
+                  current roadmap is
+                  achievable and not something that we are strangers of. Based on the things we've done in the past we
+                  are confident we can deliver them iteratively.</p>
+                <p>While these projects are currently in the early stages and have not yet been deployed, they
+                  represent our commitment to leveraging AI technology and $Dora tokens to empower users and drive
+                  innovation in the AI industry.</p>
+
+                <p>
+                  Join us on our journey to unlock the full potential of artificial intelligence with the $Dora token.
+                  Together, we can shape a future where AI is accessible, inclusive, and transformative for all.
+                </p>
+              </article>
             </div>
           </div>
         </div>
