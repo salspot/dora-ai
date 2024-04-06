@@ -2,8 +2,8 @@ import React from "react";
 import {useRecoilState} from "recoil";
 import {collapsedState} from "../../utils/recoil-atoms";
 import {Link} from "gatsby";
-import logoWhite from "../../assets/images/logo-white.svg";
-import logoBlack from "../../assets/images/logo-black.svg";
+import logoWhite from "../../assets/images/dora-ai-logo-white@0.5x.png";
+import logoBlack from "../../assets/images/dora-ai-logo@0.5x.png";
 
 const Navbar = ({className, inverse}) => {
     const [collapsed, setCollapsed] = useRecoilState(collapsedState);
@@ -98,16 +98,16 @@ const Navbar = ({className, inverse}) => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
-                      <Link
-                        to="/roadmap"
-                        activeClassName="active"
-                        onClick={() => setCollapsed(true)}
-                        className="nav-link overline-reveal"
-                      >
-                        Roadmap
-                      </Link>
-                    </li>
+                    {/*<li className="nav-item">*/}
+                    {/*  <Link*/}
+                    {/*    to="/roadmap"*/}
+                    {/*    activeClassName="active"*/}
+                    {/*    onClick={() => setCollapsed(true)}*/}
+                    {/*    className="nav-link overline-reveal"*/}
+                    {/*  >*/}
+                    {/*    Roadmap*/}
+                    {/*  </Link>*/}
+                    {/*</li>*/}
 
                     {/*<li className="nav-item">*/}
                     {/*  <Link*/}

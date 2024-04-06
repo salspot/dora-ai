@@ -41,7 +41,7 @@ export default function BlogHomepage({data, children}) {
             </div>
           </div>
         </section>
-        <HowCanWeHelpBanner/>
+        <HowCanWeHelpBanner message={"Want to invest in $Dora?"} url={"/tokenomics"} ctaMessage={"start here"}/>
         <Footer/>
       </Layout>
     </>

@@ -89,7 +89,7 @@ const ContactForm = () => {
               <h3>Next Steps...</h3>
               <ol className="counter-list">
                 <li>We'll contact you soon with more information. In the meantime, see what we're up to on our <a
-                  href="/src/templates/blog-homepage">blog</a>.
+                  href="/blog">blog</a>.
                 </li>
                 <li>If you're inquiring about our open positions, you can find that information on our <a
                   href="/careers">careers</a> page.
