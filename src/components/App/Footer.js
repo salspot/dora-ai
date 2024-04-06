@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'gatsby'
 import footerMap from "../../assets/images/footer-map.png"
 import {StaticImage} from "gatsby-plugin-image";
+import logoWhite from "../../assets/images/dora-ai-logo-white@0.5x.png";
 
 const Footer = () => {
 
@@ -14,7 +15,7 @@ const Footer = () => {
                     <div className="col-lg-6 col-sm-12 footer-about-us">
                         <div className="single-footer-widget">
                             <a href="/" className="logo">
-                                <StaticImage src={"../assets/images/dora-ai-logo@0.5x.png"} className="logo logo-white" alt="logo"/>
+                                <img src={logoWhite} className="logo logo-white" alt="logo"/>
                             </a>
                             <p>Bringing AI to the blockchain by seamlessly integrating the latest AI technology and binding it to our utility token. $Dora will elevate your business towards unparalleled success</p>
 

@@ -21,7 +21,7 @@ export default function BlogHomepage({data, children}) {
         <Navbar className="navbar-fixed-top white-page"/>
         <SecondaryPageHeader smallTitle='Blog' title='Ideas are great. Results are better.' classNames='blog'
                              headlineClassNames='col-xl-8 col-md-8 col-sm-8 col-xs-12 row flex-column'
-                             subtext="We're turning our experience into actionable insights on engineering, design, process and strategy."/>
+                             subtext="We're turning our experience into actionable insights on engineering."/>
 
         <section className="case-studies-template post-body">
           <div className="container">
@@ -36,8 +36,8 @@ export default function BlogHomepage({data, children}) {
                   </MDXProvider>
                 </article>
               </div>
-              <CaseStudyAside objectives={data.mdx.frontmatter.objectives}
-                              technologies={data.mdx.frontmatter.technologies}/>
+              {/*<CaseStudyAside objectives={data.mdx.frontmatter.objectives}*/}
+              {/*                technologies={data.mdx.frontmatter.technologies}/>*/}
             </div>
           </div>
         </section>
