@@ -18,7 +18,7 @@ export default function BlogHomepage({data, children}) {
         <Navbar className="navbar-fixed-top white-page"/>
         <SecondaryPageHeader smallTitle='Blog' title='Ideas are great. Results are better.' classNames='blog'
                              headlineClassNames='col-xl-8 col-md-8 col-sm-8 col-xs-12 row flex-column'
-                             subtext="We're turning our experience into actionable insights on engineering, design, process and strategy."/>
+                             subtext="We're turning our experience into actionable insights on engineering."/>
         <section className="post-body blog">
           <div className="container">
             <div className="row">
@@ -26,7 +26,7 @@ export default function BlogHomepage({data, children}) {
             </div>
           </div>
         </section>
-        <HowCanWeHelpBanner/>
+        <HowCanWeHelpBanner message={"Want to invest in $Dora?"} url={"/tokenomics"} ctaMessage={"start here"}/>
         <Footer/>
       </Layout>
     </>

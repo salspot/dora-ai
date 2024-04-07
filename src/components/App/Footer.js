@@ -26,7 +26,7 @@ const Footer = () => {
                                 {/*    </Link>*/}
                                 {/*</li>*/}
                                 <li>
-                                    <Link to="#" className="d-block" target="_blank" rel="noreferrer">
+                                    <Link to="https://twitter.com/dora_ai_eth" className="d-block" target="_blank" rel="noreferrer">
                                         <i className='bx bxl-twitter'></i>
                                     </Link>
                                 </li>

@@ -2,8 +2,8 @@ import React from "react";
 import {useRecoilState} from "recoil";
 import {collapsedState} from "../../utils/recoil-atoms";
 import {Link} from "gatsby";
-import logoWhite from "../../assets/images/dora-ai-logo-white@0.5x.png";
-import logoBlack from "../../assets/images/dora-ai-logo@0.5x.png";
+import logoWhite from "../../assets/images/logo-white.png";
+import logoBlack from "../../assets/images/logo-black.png";
 
 const Navbar = ({className, inverse}) => {
     const [collapsed, setCollapsed] = useRecoilState(collapsedState);
