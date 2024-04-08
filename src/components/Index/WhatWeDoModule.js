@@ -24,7 +24,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-web"></i><h4
-                                                className="heading">Content Translation</h4></div>
+                                                className="heading">AI Content Translation</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -34,7 +34,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-mobile"></i><h4
-                                              className="heading">Custom tailored chatbots</h4></div>
+                                              className="heading">Custom tailored AI chatbots</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -44,7 +44,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-devops"></i><h4
-                                                className="heading">Custom Model Training &amp; Hosting</h4></div>
+                                                className="heading">Custom AI Model Training &amp; Hosting</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -64,7 +64,7 @@ const WhatWeDoModule = () => {
                                     <figure>
                                         <figcaption>
                                             <div className="fig-block"><i className="icon-service-design"></i><h4
-                                                className="heading">Design &amp; User Experience</h4></div>
+                                                className="heading">AI Enhanced User Experience</h4></div>
                                         </figcaption>
                                     </figure>
                                 </li>

@@ -93,6 +93,53 @@ const PrivacyPolicy = () => {
                   <li>to develop and launch new products</li>
                 </ul>
 
+                <h3>Vesting Periods</h3>
+                <p>When launching a new token, it's crucial to have a
+                  well-thought-out vesting schedule to ensure the fair distribution of tokens and incentivize long-term
+                  commitment from stakeholders. Here's the release schedule for the Dora AI token:</p>
+                <h4>Token Sale (20%)</h4>
+                <ul>
+                  <li>100% Released on Token Generation Event (TGE)</li>
+                </ul>
+                <h4>Foundation (20%)</h4>
+                <ul>
+                  <li>20% Released on TGE</li>
+                  <li>80% Linear Vesting Release Scheduled Over 12 Months</li>
+                </ul>
+                <h4>Team Members (20%)</h4>
+                <ul>
+                  <li>50% Released on TGE</li>
+                  <li>50% Linear Vesting Release Schedule Over 12 Months</li>
+                </ul>
+                <h4>Exchanges Listing (10%)</h4>
+                <ul>
+                  <li>100% Released on TGE</li>
+                </ul>
+                <h4>Staking Reward (10%)</h4>
+                <ul>
+                  <li>10% Released on TGE</li>
+                  <li>90% Linear Vesting Release Schedule Over 12 Months</li>
+                </ul>
+                <h4>Marketing (5%)</h4>
+                <ul>
+                  <li>100% Released on TGE</li>
+                </ul>
+                <h4>Advisors (5%)</h4>
+                <ul>
+                  <li>50% Released on TGE</li>
+                  <li>50% Linear Vesting Release Schedule Over 12 Months</li>
+                </ul>
+                <h4>Community Rewards (10%)</h4>
+                <ul>
+                  <li>10% Released on TGE</li>
+                  <li>90% Vesting Release Schedule Over 24 Months</li>
+                </ul>
+                <p>This vesting schedule ensures that tokens are distributed responsibly and in a manner that aligns
+                  with the long-term goals of the Dora AI project. By staggering the release of tokens and
+                  implementing vesting periods, we aim to foster a sustainable and thriving ecosystem around the Dora
+                  AI token.</p><p>Stay tuned for more updates and developments as we continue to build and grow the
+                Dora AI platform.</p>
+
                 <h3>You can buy $Dora tokens here:<br/></h3>
                 <ul>
                   <li>public ido - <strong>to be done</strong></li>
@@ -105,13 +152,13 @@ const PrivacyPolicy = () => {
                 TODO update token contract
                 TODO update with vesting schedule
               </article>
-            </div>
           </div>
         </div>
-      </section>
-      <Footer/>
-    </Layout>
-  )
+      </div>
+    </section>
+  <Footer/>
+</Layout>
+)
 }
 
 export default PrivacyPolicy;

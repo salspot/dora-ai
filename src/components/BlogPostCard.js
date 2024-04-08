@@ -3,8 +3,7 @@ import {GatsbyImage, getImage} from "gatsby-plugin-image";
 
 const BlogPostCard = ({postDetails}) => {
 
-  console.log('postDetails', postDetails);
-  const {slug, headerImage, category, title, author, shortDescription} = postDetails;
+  const {slug, headerImage, category, title, author, shortDescription, readMinutes} = postDetails;
   const imageObject = getImage(headerImage.childImageSharp.gatsbyImageData)
 
   return (
@@ -32,7 +31,7 @@ const BlogPostCard = ({postDetails}) => {
               <div className="author-name">@{author}</div>
             </li>
           </ul>
-          <span className="read-time">1 min read</span>
+          <span className="read-time">{readMinutes} min read</span>
         </footer>
       </div>
     </article>

@@ -22,7 +22,8 @@ export default function BlogHomepage({data, children}) {
         <section className="post-body blog">
           <div className="container">
             <div className="row">
-              <BlogPostCard postDetails={data.allMdx.edges[0].node.frontmatter}/>
+              {data.allMdx.edges.map((edge) => (
+                <BlogPostCard postDetails={edge.node.frontmatter}/>))}
             </div>
           </div>
         </section>
@@ -35,6 +36,7 @@ export default function BlogHomepage({data, children}) {
 export const query = graphql`
     query BlogHomeQuery($id: String!) {
         allMdx(
+            sort: {fields: frontmatter___id, order: DESC}
             filter: { frontmatter: { key: { eq: "blog-post" } } }) {
             edges {
                 node {
@@ -44,6 +46,7 @@ export const query = graphql`
                         slug
                         title
                         category
+                        readMinutes
                         headerImage {
                             childImageSharp {
                                 gatsbyImageData
@@ -62,6 +65,7 @@ export const query = graphql`
                 title
                 objectives
                 technologies
+                readMinutes
                 headerImage {
                     childImageSharp {
                         gatsbyImageData(width: 800)
