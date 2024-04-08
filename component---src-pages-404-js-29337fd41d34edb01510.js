@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdora_ai_landing=self.webpackChunkdora_ai_landing||[]).push([[125],{3331:function(n,e,t){t.r(e),t.d(e,{default:function(){return u}});var a=t(6540);function u(){return a.createElement("div",null," 404 Page Not found Redirecting to home")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-29337fd41d34edb01510.js.map
