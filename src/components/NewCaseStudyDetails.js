@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import {graphql, Link, useStaticQuery} from "gatsby";
 import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
 
-const NewCaseStudyDetails = ({style = CaseStudyStyle.LEFT, content, elementIndex}) => {
+const NewCaseStudyDetails = ({style = CaseStudyStyle.LEFT, content = {}, elementIndex}) => {
   const {title, description, accordionList, slug, imgSrc, imgAlt} = content;
   const caseStudyImage = getImage(imgSrc)
   console.log('caseStudyImage', imgSrc, caseStudyImage)
